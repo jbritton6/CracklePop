@@ -23,5 +23,7 @@ def crackle_pop(number):
         elif i % 5 == 0:
             print('Pop')
         else:
-            print(number)
+            print(i)
 
+if __name__ == '__main__':
+    crackle_pop(100)
